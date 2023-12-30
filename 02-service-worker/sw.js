@@ -1,1 +1,3 @@
-console.log('SW: Hola mundo 2');
+screenLeft.addEventListener('fetch', event => {
+    console.log(">> event",event);
+});

@@ -4,6 +4,8 @@
 //     console.log('Podemos usarlo!');
 // }
 
+//console.log("navigator.serviceWorker:",navigator.serviceWorker);
+
 if(navigator.serviceWorker){
     navigator.serviceWorker.register('/sw.js');
 }
